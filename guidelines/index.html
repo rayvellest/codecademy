@@ -2,29 +2,55 @@
 <html>
   <head>
     <title>Website Style Guide</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
       <h1>Website Style Guide</h1>
+      <p>This website style guide is a practice project based on instructional files from Codecademy. It outlines a basic visual styles that could be used as a reference for the creation of a website. The purpose of a website style guide is to ensure consistency in design and branding across all pages and sections, contributing to a cohesive and user-friendly experience.</p>
     </header>
     <article>
-      <section id="colour">
-        <h2>Colour</h2>
-        <div class="swatch"><p>Blue</p></div>
-        <div class="swatch"><p>Red</p></div>
-        <div class="swatch"><p>Green</p></div>
-        <div class="swatch"><p>Yellow</p></div>
+      <h2>Colour</h2>
+      <p>Colour plays a crucial role in visual communication and branding. This section defines the primary colour palette for the website, which should be strictly adhered to in all design elements. The swatches below showcase the approved colours, and any additional colours should be derived or selected with careful consideration and in keeping with the overall aesthetic.</p>
+      <section id="colours">
+        <div class="swatch blue"><p>Blue #A8C7FA</p></div>
+        <div class="swatch red"><p>Red #D65C67</p></div>
+        <div class="swatch purple"><p>Purple #C58AF9</p></div>
+        <div class="swatch orange"><p>Orange #FA903E</p></div>
       </section>
+      <h2>Fonts</h2>
       <section id="fonts">
-        <h2>Fonts</h2>
+        <p>Carefully chosen fonts enhance readability and contribute to the overall visual identity of the website. This section specifies the primary font families to be used for headings, body text, and other typographic elements. Consistency in font usage is essential for a harmonious and professional look.</p>
         <ul>
-          <li class="font">Times New Roman</li>
-          <li class="font">Roboto</li>
-          <li class="font">Montserrat</li>
+          <li class="poppins">Poppins</li>
+          <li class="raleway">Raleway</li>
+          <li class="noto-serif">Noto Serif</li>
         </ul>
       </section>
-      <section id="content">
-        <h2>Content</h2>
+      <section id="styles">
+        <p>This section provides guidelines and examples for various text styles used throughout the website, including headings, paragraphs, lists, and other textual elements. These styles ensure readability, hierarchy, and a consistent visual presentation of information.</p>
+        <h2>Styles</h2>
+        <h3>Headings</h3>
+          <ul>
+            <li>font-weight: bold</li>
+            <li>font-size: 1.5em</li>
+            <li>font-family: 'Noto Serif'</li>
+          </ul>
+        <h3>Subheadings</h3>
+        <ul>
+          <li>font-weight: regular</li>
+          <li>font-size: 1.2em</li>
+          <li>font-family: 'Raleway'</li>
+        </ul>
+        <h3>Paragraphs</h3>
+        <ul>
+          <li>font-weight: regular</li>
+          <li>font-size: 1em</li>
+          <li>font-family: 'Poppins'</li>
+        </ul>
       </section>
     </article>
   </body>

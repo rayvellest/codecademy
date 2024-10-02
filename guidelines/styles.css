@@ -1,0 +1,68 @@
+html {
+    font-family: "Poppins", system-ui;
+  }
+
+h1 {
+    font-family: "Noto Serif", system-ui;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Raleway", system-ui;  
+}
+
+.poppins {
+    font-family: "Poppins", system-ui;
+}
+
+.raleway {
+    font-family: "Raleway", system-ui;
+}
+  
+.noto-serif {
+    font-family: "Noto Serif", system-ui;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+  #colours {  /* Target the colours section */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /*  Create columns */
+    gap: 20px; /* Adjust spacing between swatches */
+  }
+  
+  .swatch {
+    background-color: red;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+  }
+  
+  .blue {
+    background-color: #A8C7FA;
+  }
+  
+  .red {
+    background-color: #D65C67;
+  }
+  
+  .purple {
+    background-color: #C58AF9;
+  }
+  
+  .orange {
+    background-color: #FA903E;
+  }
+  
+  #fonts ul li {
+    font-size: 1.5em;
+  }
+
+  #styles ul li {
+    list-style-type: none;
+  }
