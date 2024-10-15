@@ -1,3 +1,3 @@
-# random
+Codecademy Projects Repository
 
-This repository is a collection of random conding practices.
+This repository is a collection of codecademy projects I've completed along my coding journey.
